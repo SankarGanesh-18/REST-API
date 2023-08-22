@@ -10,10 +10,8 @@ import com.example.demo.model.Employee;
 
 import com.example.demo.repository.EmployeeRepo;
 
-import jakarta.persistence.EntityNotFoundException;
-
 @Service
-public class ApiService extends EntityNotFoundException {
+public class ApiService{
 	@Autowired
     EmployeeRepo a;
     public Employee saveinfo(Employee e)
